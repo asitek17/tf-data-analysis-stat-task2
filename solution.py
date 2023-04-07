@@ -6,7 +6,7 @@ from scipy.stats import uniform
 
 chat_id = 694905952 # Ваш chat ID, не меняйте название переменной
 
-def exact_solution(p: float, x: np.array) -> tuple:
+def solution(p: float, x: np.array) -> tuple:
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
