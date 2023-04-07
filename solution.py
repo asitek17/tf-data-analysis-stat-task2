@@ -16,4 +16,4 @@ def solution(p: float, x: np.array) -> tuple:
     alpha = 1 - p
     #loc = x.mean()
     n = len(x)
-    return (x.max() - 0.041) / (1 - alpha / 2) ** (1 / n) + 0.041, (x.max() - 0.041) / (1 - alpha / 2) ** (1 / n) + 0.041
+    return (x.max() - 0.041) / (alpha / 2) ** (1 / n) + 0.041, (x.max() - 0.041) / (1 - alpha / 2) ** (1 / n) + 0.041
